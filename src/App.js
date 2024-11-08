@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/callback" element={<Callback />} />
         <Route path="/patient/:id" element={<Patient />} />
+        <Route path="/callback" element={<Callback />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
